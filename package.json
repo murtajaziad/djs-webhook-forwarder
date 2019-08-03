@@ -1,12 +1,15 @@
 {
   "name": "djs-webhook-forwarder",
-  "version": "0.0.1",
-  "description": "A simple Webhook forwarder from a channel.",
+  "version": "0.0.3",
+  "description": "A simple Discord.js Webhook forwarder from a channel.",
   "main": "index.js",
-  "dependencies": {
-    "discord.js": "^11.5.1"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Murtaja Ziad <murtaja.ziad2014@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murtajaziad/djs-webhook-forwarder.git"
+  },
   "keywords": [
     "d.js",
     "channel",
@@ -14,14 +17,10 @@
     "webhook",
     "discord"
   ],
-  "homepage":{
-    "url": "https://github.com/murtajaziad/djs-webhook-forwarder"
-  },
+  "author": "Murtaja Ziad",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/murtajaziad/djs-webhook-forwarder/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/murtajaziad/djs-webhook-forwarder.git"
-  }
+  "homepage": "https://github.com/murtajaziad/djs-webhook-forwarder#readme"
 }
