@@ -13,7 +13,7 @@ class webhookForwarder {
 		this.webhooktoken = webhooktoken || null;
 		this.source = source || null;
 	}
-async forwarder() {
+async start() {
   var webhook = new WebhookClient(this.webhookid, this.webhooktoken)
   this.client.on("message", message => {
     if(message.channel.id == this.source) {
