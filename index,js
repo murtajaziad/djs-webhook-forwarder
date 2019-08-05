@@ -6,7 +6,7 @@ class webhookForwarder {
      * @param {string} webhookid - Your webhook ID.
      * @param {string} webhooktoken - Your webhook Token
      * @param {string} source - Your source channel
-     */
+     **/
 	constructor(client, webhookid, webhooktoken, source) {
 		this.client = client || null;
 		this.webhookid = webhookid || null;
