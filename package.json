@@ -1,6 +1,6 @@
 {
   "name": "djs-webhook-forwarder",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple Discord.js Webhook forwarder from a channel.",
   "main": "index.js",
   "scripts": {
